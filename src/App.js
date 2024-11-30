@@ -9,6 +9,7 @@ import Header from './Components/Header';
 import Layout from './Components/Layout';
 import UseRef from './Components/UseRef';
 import UseRef2 from './Components/UseRef2';
+import RandomGift from './Components/RandomGift';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
       <hr />
 
       <UseRef2 />
+      <hr />
+
+      <RandomGift />
     </div>
   );
 }
