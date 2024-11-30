@@ -1,23 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
+import Lamp from './Components/Lamp';
+import Cart from './Components/Cart';
+import UseEff1 from './Components/UseEff1';
+// import UseEff2 from './Components/UseEff2';
+import UseEff3 from './Components/UseEff3';
+import Header from './Components/Header';
+import Layout from './Components/Layout';
+import UseRef from './Components/UseRef';
+import UseRef2 from './Components/UseRef2';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Lamp />
+      <hr />
+
+      <Cart />
+      <hr />
+
+      <UseEff1 />
+      <hr />
+
+      {/* <UseEff2 /> */}
+      <UseEff3 />
+      <hr />
+
+      {/* <Layout /> */}
+      <UseRef />
+      <hr />
+
+      <UseRef2 />
     </div>
   );
 }
