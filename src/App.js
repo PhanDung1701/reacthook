@@ -10,6 +10,9 @@ import Layout from './Components/Layout';
 import UseRef from './Components/UseRef';
 import UseRef2 from './Components/UseRef2';
 import RandomGift from './Components/RandomGift';
+import Memo from './Components/Memo';
+import CouterSate from './Components/CouterState';
+import CouterReducer from './Components/CouterReducer';
 
 function App() {
   return (
@@ -35,6 +38,15 @@ function App() {
       <hr />
 
       <RandomGift />
+      <hr />
+
+      <Memo />
+      <hr />
+
+      <CouterSate />
+      <hr />
+
+      <CouterReducer />
     </div>
   );
 }
